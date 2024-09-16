@@ -1,8 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Sample product data for demonstration
     const products = [
-        { id: 1, name: 'Product 1', price: 10.99, images: ['1.png', '2.png', '3.png'], description: 'This is a detailed description of Product 1.' },
+        { id: 1, name: 'Product 1', price: 10.99, images: ['3.png', '2.png', '1.png'], description: 'This is a detailed description of Product 1.' },
         { id: 2, name: 'Product 2', price: 20.99, images: ['4.png', '5.png', '1.png'], description: 'This is a detailed description of Product 2.' },
+        { id: 3, name: 'Product 3', price: 10.99, images: ['1.png', '2.png', '3.png'], description: 'This is a detailed description of Product 3.' },
+        { id: 4, name: 'Product 4', price: 10.99, images: ['5.png', '4.png', '3.png'], description: 'This is a detailed description of Product 4.' },
+        { id: 5, name: 'Product 5', price: 10.99, images: ['2.png', '1.png', '3.png'], description: 'This is a detailed description of Product 5.' },
+        { id: 6, name: 'Product 6', price: 10.99, images: ['3.png', '5.png', '1.png'], description: 'This is a detailed description of Product 6.' },
+        { id: 7, name: 'Product 7', price: 10.99, images: ['5.png', '3.png', '1.png'], description: 'This is a detailed description of Product 7.' },
+        { id: 8, name: 'Product 8', price: 10.99, images: ['1.png', '2.png', '3.png'], description: 'This is a detailed description of Product 8.' },
+        { id: 9, name: 'Product 9', price: 10.99, images: ['3.png', '2.png', '5.png'], description: 'This is a detailed description of Product 9.' },
+        { id: 10, name: 'Product 10', price: 10.99, images: ['2.png', '5.png', '3.png'], description: 'This is a detailed description of Product 10.' },
+
         // Add other products here...
     ];
 

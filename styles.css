@@ -68,7 +68,7 @@ body, html {
 }
 
 .hero {
-    background: linear-gradient(45deg, #f06, #ff9), url('https://via.placeholder.com/1500x500') no-repeat center center;
+    background: linear-gradient(45deg, rgb(204, 79, 241), rgb(189, 255, 181)), url('https://via.placeholder.com/1500x500') no-repeat center center;
     background-size: cover;
     animation: gradientAnimation 15s ease infinite;
 }

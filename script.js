@@ -26,6 +26,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const products = [
         { id: 1, name: 'Product 1', price: 10.99, image: '3.png', color: '#f8d7da' },
         { id: 2, name: 'Product 2', price: 20.99, image: '4.png', color: '#d4edda' },
+        { id: 3, name: 'Product 3', price: 20.99, image: '1.png', color: '#8887c7' },
+        { id: 4, name: 'Product 4', price: 20.99, image: '5.png', color: '#e4abeb' },
+        { id: 5, name: 'Product 5', price: 20.99, image: '2.png', color: '#abcdeb' },
+        { id: 6, name: 'Product 6', price: 20.99, image: '3.png', color: '#e0ebab' },
+        { id: 7, name: 'Product 7', price: 20.99, image: '5.png', color: '#ebabab' },
+        { id: 8, name: 'Product 8', price: 20.99, image: '1.png', color: '#e0d4fc' },
+        { id: 9, name: 'Product 9', price: 20.99, image: '3.png', color: '#d4fceb' },
+        { id: 10, name: 'Product 10', price: 20.99, image: '2.png', color: '#d4f1fc' },
         // Add other products here...
     ];
 
@@ -57,6 +65,15 @@ function addToCart(productId) {
     const products = [
         { id: 1, name: 'Product 1', price: 10.99 },
         { id: 2, name: 'Product 2', price: 20.99 },
+        { id: 3, name: 'Product 3', price: 20.99 },
+        { id: 4, name: 'Product 4', price: 20.99 },
+        { id: 5, name: 'Product 5', price: 20.99 },
+        { id: 6, name: 'Product 6', price: 20.99 },
+        { id: 7, name: 'Product 7', price: 20.99 },
+        { id: 8, name: 'Product 8', price: 20.99 },
+        { id: 9, name: 'Product 9', price: 20.99 },
+        { id: 10, name: 'Product 10', price: 20.99 },
+
         // Add other products here...
     ];
 
