@@ -93,5 +93,19 @@ function addToCart(productId) {
     }
 
     localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartBadge();  // Update cart badge after adding item
     alert('Added to Cart');
 }
+document.addEventListener('DOMContentLoaded', function () {
+    updateCartBadge();  // Update the cart badge when the page loads
+
+    // Existing code for fetching products and populating them...
+});
+
+function updateCartBadge() {
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const totalItems = cart.reduce((total, item) => total + item.quantity, 0);
+    const cartBadge = document.getElementById('cartBadge');
+    cartBadge.textContent = totalItems;  // Set the cart badge to the total number of items
+}
+
